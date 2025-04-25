@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+  }
+  
+body {
+    background-color: #f5cf06;
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    padding: 70px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #8E4106;
+}
+
+.pokebola{
+    transition: ease-in-out transform 0.3s;
+    
+}
+
+.pokebola:hover{
+   transform: scale(1.1);
+}
+
+p {
+ color: #8E4106;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h2 {
+    color: #8E4106;
+    font-weight: 400;
+    font-size: 64px;
+  
+}
+
+.download {
+    color: #ffffff;
+   
+     font-weight: 400;
+     font-size: 48px;
+}
+
+button :hover {
+    color: #f5cf06;
+}
+
+.legend p {
+    max-width: 530px;
+}
+
+.legend {
+    margin-top: 200px;
+}
+
+.pikachuBack {
+    color: #ffffff20;
+     font-weight: 400;
+     font-size: 500px ;
+     z-index: 0;
+     position: absolute;
+}
+
+.pikachuFront {
+    color: #ffffff;
+     font-weight: 400;
+     font-size: 400px;
+     z-index: 1;
+     position: absolute;
+     margin-top: 200px;
+}
+
+.pikachuImg {
+    z-index: 2;
+    top: 200px;
+    position: absolute;
+}
+
+article {
+    display: flex;
+    padding-left: 70px ;
+    margin-top: 500px;
+}
+
+
+
+button {
+    background-color: #8E4106;
+    width: 411px;
+    height: 100px;
+    margin-left: 1400px;
+    margin-top: 250px;
+}
+
+button img {
+    margin-right: 40px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 280px;
+}
